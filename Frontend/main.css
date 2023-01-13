@@ -1,0 +1,37 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.form{
+    width:25%;
+    margin:auto;
+    margin-top: 20px;
+}
+.table-design{
+    width:70%;
+    margin:auto;
+    margin-top: 30px;
+}
+.card-design{
+    display:flex;
+    align-items: center;
+    margin-left:300px;
+    margin-top:20px;
+}
+.card{
+    margin-left: 20px;
+}
+.category-recent{
+    width:400px;
+    margin-left:320px;
+    margin-top: 20px;
+    border: 2px solid #ebebeb;
+}
+.transaction-recent{
+    width:485px;
+    margin-left:20px;
+    margin-top: 20px;
+    border: 2px solid #ebebeb;
+}
+.recent{
+    display: flex;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Expense Tracker</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Concert+One&family=Grandstander:ital,wght@0,300;0,500;0,800;1,300&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href="bootstrap.min.css">
+</head>
+<body>
+      <!-- Caregory Form -->
+
+      <div class="form">
+        <h1>Transaction</h1>
+        <hr>
+          <form>
+            <div class="form-group">
+              <label for="formGroupExampleInput1">Title</label>
+              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Title">
+            </div>
+            <div class="form-group">
+                <label for="formGroupExampleInput2">Select a Category</label> <br>
+                <select class="form-control">  
+                    <option value = "BMW"> BMW  </option>  
+                    <option value = "Mercedes"> Mercedes  </option>  
+                    <option value = "Audi"> Audi  </option>  
+                    <option value = "Skoda"> Skoda </option>  
+                </select>  
+            </div>
+            <div class="form-group">
+                <label for="formGroupExampleInput2">Amout</label>
+                <input type="number" class="form-control" id="formGroupExampleInput2" placeholder="Amount">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Detail</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-success">Submit</button>
+            </div>
+          </form>
+      </div>
+</body>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src='script.js'></script>
+</html>

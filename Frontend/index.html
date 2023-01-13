@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Expense Tracker</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Concert+One&family=Grandstander:ital,wght@0,300;0,500;0,800;1,300&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href="bootstrap.min.css">
+</head>
+<body>
+    <div>
+    <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">ExpenseTracker</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Dashboard<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Category.html">Category</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Transaction.html">Transaction</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div>
+    <div class="card-design">
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Total Expense Limit</h5>
+          <h3 class="card-title" id="total-expense"></h3>
+          <p class="card-text"></p>        
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Total Expense</h5>
+          <h3 class="card-title" id="expense"></h3>
+          <p class="card-text"></p>        
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Remaining Balance</h5>
+          <h3 class="card-title" id="remaining-expense"></h3>
+          <p class="card-text"></p>        
+        </div>
+      </div>
+    </div>
+   
+    <div class="recent">
+    <div class="category-recent">
+      <h3>Recent Categories</h3>
+      <table class="table" >
+          <thead class="thead-light">
+            <tr>
+              <th scope="col">Id</th>
+              <th scope="col">Category</th>
+              <th scope="col">Limit</th>
+            </tr>
+          </thead>
+          <tbody id="category"></tbody>
+        </table>
+  </div>
+
+  <div class="transaction-recent">
+    <h3>Recent Transaction</h3>
+    <table class="table" >
+        <thead class="thead-light">
+          <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Title</th>
+            <th scope="col">Category</th>
+            <th scope="col">Amount</th>
+            <th scope="col">description</th>
+          </tr>
+        </thead>
+        <tbody id="transaction"></tbody>
+      </table>
+</div>
+</div>
+</div>
+</body>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src='script.js'></script>
+    <script src='tscript.js'></script>
+</html>
